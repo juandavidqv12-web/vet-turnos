@@ -7,9 +7,8 @@ class Mascota {
         }
         this.nombre = nombre;
         this.peso = peso;  
-
     }
-    //Contrao
+    //Contrato
     hacerSonido(){
         throw new Error(`${this.constructor.nombre} debe implementar el método hacer Sonido`);
     } 
